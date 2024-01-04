@@ -65,8 +65,8 @@ ol{
 img{
   border-radius: 0.5rem; 
   margin: 1rem; 
-  width: 70%;
-  height: 70%;
+  width: 50%;
+  height: 50%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -75,5 +75,10 @@ img{
     display: block
   }
 
+  img{
+    width: 70%;
+    hight: 70%;
+  }
+}
   
 
